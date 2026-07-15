@@ -1,6 +1,6 @@
 import numpy as np
 
-values:np.ndarray = np.random.randint(1, 50, 20)
+values:np.ndarray = np.random.randint(1, 100, 20)
 
 odd:list[int] = []
 even:list[int] =[]
