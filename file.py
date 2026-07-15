@@ -1,3 +1,8 @@
+import time
+
+for i in range(5):
+    time.sleep(1)
+    print(i, sep=  ' ', end='\r')
 import numpy as np
 
 values:np.ndarray = np.random.randint(1, 50, 20)
